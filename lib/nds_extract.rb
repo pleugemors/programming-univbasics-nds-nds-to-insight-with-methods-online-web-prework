@@ -4,6 +4,8 @@ require 'directors_database'
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
+what = directors_database
+puts what
 
 def directors_totals(nds)
   result = {}
