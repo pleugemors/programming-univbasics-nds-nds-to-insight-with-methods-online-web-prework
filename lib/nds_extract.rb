@@ -9,7 +9,7 @@ def directors_totals(nds)
   result = {}
   counter= 0 
   while nds[counter] do 
-    result[counter]= {nds[counter][:name] => gross_for_director(nds[counter])}
+    result[nds][counter][:name]]= gross_for_director(nds[counter])}
     counter += 1 
     
   end
