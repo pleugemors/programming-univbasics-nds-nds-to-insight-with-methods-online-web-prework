@@ -4,8 +4,6 @@ require 'directors_database'
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
-nada= directors_database
-puts nada
 
 def directors_totals(nds)
   result = {}
@@ -16,7 +14,7 @@ def directors_totals(nds)
     counter += 1 
     
   end
-  puts result
+  result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
